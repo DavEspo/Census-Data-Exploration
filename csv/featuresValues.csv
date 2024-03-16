@@ -1,0 +1,43 @@
+col_name,desc,data_type,"scale (N, O, I, R)",domain,missing_values
+AAGE,age,Int64,R,"{0, 1, 2, …}",0
+ACLSWKR,class of worker,Object,N,"{Private, Local government, Federal government,…}",0
+ADTIND,industry code,Int64,N,"{0,1,2,…}",0
+ADTOCC,occupation code,Int64,N,"{0,1,2,…}",0
+AHGA,education,Object,O,"{Children,High school graduate,Some college but no degree,…}",0
+AHRSPAY,wage per hour,Int64,R,"{0.1200,876…}",0
+AHSCOL,enrolled in edu inst last wk,Object,N,"{not in universe,High school,College or university}",0
+AMARITL,marital status,Object,N,"{Never married,Separated,Divorced…}",0
+AMJIND,major industry code,Object,N,"{not in universe or children,Armed forces, Wholesale trade}",0
+AMJOCC,major occupation code,Object,N,"{Not in universe,Professional specialty,Other service,…}",0
+ARACE,mace,Object,N,"{White,Black,Other,…}",0
+AREORGN,hispanic origin,Object,N,"{Mexican (Mexicano),Mexican-American,Puerto Rican,…}",0
+ASEX,sex,Object,N,"{Male,Female}",0
+AUNMEM,member of a labor union,Object,N,"{Not in universe,No,Yes}",0
+AUNTYPE,reason for unemployment,Object,N,"{Re-entrant,Job loser-on layoff,New entrant,…}",0
+AWKSTAT,full or part time employment stat,Object,N,"{Children or Armed Forces,Full-time schedules,Unemployed part-time,…}",0
+CAPGAIN,capital gains,Int64,R,"{0,5178,991,…}",0
+CAPLOSS,capital losses,Int64,R,"{0,1590,1977,…}",0
+DIVVAL,dividends from stocks,Int64,R,"{0,6000,100,…}",0
+FILESTAT,tax filer status,Object,N,"{Nonfiler,Joint one under 65 & one 65+, Joint both under 65,…}",0
+GRINREG,region of previous residence,Object,N,"{Not in universe,South,Northeast,…}",0
+GRINST,state of previous residence,Object,N,"{Not in universe,Utah,Michigan,…}",708
+HHDFMX,Detailed household and family stat,Object,N,"{Child <18 never marr not in subfamily, Other Rel<18 never marr child of subfamily RP,Other Rel<18 never married RP of subfamily,…}",0
+HHDREL,Detailed household summary in household,Object,N,"{Child under 18 never married,Other relative of householder, Nonrelative of householder,…}",0
+MARSUPWT,Instance weight,Float64,I,"{37.87,39.11,40.67,…}",0
+MIGMTR1,Migration code-change in msa,Object,N,"{Not in universe,Nonmover,MSA to MSA,…}",99696
+MIGMTR3,Migration code-change in reg,Object,N,"{Not in universe,Nonmover,Same country,…}",99696
+MIGMTR4,Migration code-move within reg,Object,N,"{Not in universe,Nonmover,Same country,…}",99696
+MIGSAME,Live in this house 1 year ago,Object,N,"{Not in universe under 1 year old,Yes,No}",0
+MIGSUN,Migration prev res in sunbelt,Object,N,"{Not in universe,Yes,No}",99696
+NOEMP,Num persons worked for employer,Int64,R,"{0,1,2,3,…}",0
+PARENT,Family members under 18,Object,N,"{Both parents present,Neither parent present,Mother only present,…}",0
+PEFNTVTY,Country of birth father,Object,N,"{Mexico,United States,Puerto-Rico,…}",6713
+PEMNTVTY,Country of birth mother,Object,N,"{India,Mexico,United-States,…}",6119
+PENATVTY,Country of birth self,Object,N,"{United-States,Mexico,Puerto-Rico,…}",3393
+PRCITSHP,citizenship,Object,N,"{Native-Born in the United States,Foreign born-Not a citizen of US, Native-Born in Puerto Rico or US Outlying,…}",0
+SEOTR,Own business or self employment,Int64,N,"{0,2,1}",0
+VETQVA,Fill inc questionnaire for veteran’s admin,Object,N,"{Not in universe,No,Yes}",0
+VETYN,Veterans benefits,Int64,N,"{0,2,1}",0
+WKSWORK,Weeks worked in year,Int64,R,"{0,1,2,3,…}",0
+YEAR,Year survey was done,Int64,N,"{94,95}",0
+PTOTVALB,Total person income,Object,N,"{-50000,50000+}",0
