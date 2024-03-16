@@ -6,7 +6,7 @@ plt=Base_to_DataFrame.plt
 
 
 # The code below up to line 38 shows what to fill in the table for the features.csv file
-# Description is given in the census folder
+# Description is given in the websites provided in the README.md section
 # The 2nd line below outputs the data types for each attribute
 print("Data Characteristics Determined:\nData types:")
 print(df.dtypes)
